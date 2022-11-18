@@ -1,0 +1,14 @@
+@import url(../components/Header/Header.css);
+@import url(../components/Dropdown/Dropdown.css);
+@import url(../components/Banner/Banner.css);
+@import url(../components/Products/products.css);
+.w-100{
+    width:100%
+}
+.d-flex{
+    display: flex;
+}
+.icon{
+    color:#00609C;
+    font-size: 1.5rem;
+}
