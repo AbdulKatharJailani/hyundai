@@ -2,6 +2,7 @@
 @import url(../components/Dropdown/Dropdown.css);
 @import url(../components/Banner/Banner.css);
 @import url(../components/Products/products.css);
+@import url(../components/Deals/Deals.css);
 .w-100{
     width:100%
 }
