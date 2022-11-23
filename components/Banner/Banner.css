@@ -11,9 +11,8 @@
     left: 20px !important;
     z-index: 1;
   }
-  .slick-next {
+  .banner__slider.slick-next {
     right: 20px !important;
-  
   }
   .banner__slider .slick-arrow,
   .banner__slider .slick-arrow:hover,
