@@ -3,7 +3,7 @@ import Dropdown from "./Dropdown/Dropdown";
 import Banner from "./Banner/Banner";
 import Products from "./Products/Products";
 import Deals from "./Deals/Deals";
-import Information from "./Information/Information";
+import Innovation from "./Innovation/Innovation";
 import Subscription from "./Subscription/Subscription";
 import Footer from "./Footer/Footer";
 
@@ -13,7 +13,7 @@ export {
     Banner,
     Products,
     Deals,
-    Information,
+    Innovation,
     Subscription,
     Footer
 }

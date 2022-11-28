@@ -1,5 +1,6 @@
 import React from 'react';
-import {Header,Dropdown,Banner,Products,Deals,Information,Subscription,Footer} from '../components';
+import {Header,Dropdown,Banner,Products,Deals,Innovation,Subscription,Footer} from '../components';
+
 
 const index = () => {
   return (
@@ -9,7 +10,7 @@ const index = () => {
     <Banner/>
     <Products/>
     <Deals/>
-    <Information/>
+    <Innovation/>
     <Subscription/>
     <Footer/>
    </>

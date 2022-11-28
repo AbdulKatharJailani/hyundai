@@ -4,6 +4,7 @@
 @import url(../components/Products/products.css);
 @import url(../components/Deals/Deals.css);
 @import url(../components/Innovation/Innovation.css);
+@import url(../components/Innovation/News/News.css);
 .w-100{
     width:100%
 }

@@ -4,9 +4,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { images } from '../../constants';
 import Image from 'next/image';
-// import Carousel from '../../containers/Carousel/Carousel';
-const banners=[
-  images.babgrinder_banner,images.garden_banner,images.garden_banner,
+
+const banners = [
+  images.babgrinder_banner, images.garden_banner, images.hyundai_generator_banner,
 ]
 const Banner = () => {
 
@@ -18,16 +18,16 @@ const Banner = () => {
   };
   return (
     <div className='banner__slider'>
-    <Slider {...settings}>
-       {banners.map((banner)=>{
-          return(
+      <Slider {...settings}>
+        {banners.map((banner) => {
+          return (
             <div className='slider__width'>
-            <Image src={banner} className="slider__image"/>
+              <Image src={banner} className="slider__image" />
             </div>
-          )})}
-     </Slider>
+          )
+        })}
+      </Slider>
     </div>
-    
   )
 }
 

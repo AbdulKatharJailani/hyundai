@@ -1,0 +1,56 @@
+.innovation__container-background {
+    position: relative;
+    z-index: 1;
+    margin: 0 4rem 6rem;
+}
+
+.innovation__containar {
+    display: flex;
+    height: 400px;
+    margin-top: 4rem;
+    width: min(95%, 70rem);
+    margin-inline: auto;
+}
+
+.innovation__text-section {
+    background-color: #00609C;
+    color: #fff;
+    padding: 4rem;
+    height: 100%;
+}
+
+.innovation__text-content {
+    height: 240px;
+    overflow-y: scroll;
+}
+
+.innovation__padding-section {
+    padding: 0 2px;
+}
+
+.innovation__image-section .innovation__image {
+    height: 400px;
+}
+
+.innovation__containar h2 {
+    margin-bottom: 1rem;
+}
+
+.innovation__containar p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #BFCED8;
+    font-weight: 400;
+    line-height: 1.25rem;
+}
+
+.innovation__containar::after {
+    content: "";
+    height: 180px;
+    background-color: #F2F7FA;
+    position: absolute;
+    bottom: -80px;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+}
