@@ -5,6 +5,8 @@
 @import url(../components/Deals/Deals.css);
 @import url(../components/Innovation/Innovation.css);
 @import url(../components/Innovation/News/News.css);
+@import url(../components/Innovation/Blog/Blog.css);
+@import url(../components/Subscription/Subscription.css);
 .w-100{
     width:100%
 }

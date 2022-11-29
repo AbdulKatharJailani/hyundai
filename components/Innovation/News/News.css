@@ -1,7 +1,7 @@
 .news__container{
   width: min(95%,70rem);
   margin-inline: auto;
-  padding: 6rem 0;
+  padding: 4rem 0;
 }
 .newsDetails__section{
     display: flex !important;
@@ -23,12 +23,11 @@
 }
 .newsDetails__text-section h2{
     color: #00609C;
-    font-size: 1.75rem;
     margin-bottom: 1rem;
 }
 .newsDetails__text-section p{
     color: #595959;
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     margin-bottom: 1rem;
 }
 
